@@ -1,0 +1,18 @@
+Ejercicio 3 Desafio
+
+
+Para el primer ejercicio se indicaron pruebas funcionales de tipo unitaria, para verificar que al ingresar el nombre de Pais o ciudad esten correctos y arroje el mensaje que correspondam ya sea si es valido o no.
+
+Para el ejercicio 2, Se utilizó la herramienta Postman, en donde  se realizaron pruebas funcionales para cada recurso y asi validar una respuesta correcta a las solicitudes, teniendo como resultado un 200 Ok. Además se realizaron 2 casos de prueba para validar la busqueda por ID y un otro para arrojar un error en caso de buscar un ID incorrecto.
+
+Otro caso que se ejecutó es un metodo POST para insertar un post, el cual se crea de manera correcta arrojando como resultado 201 OK.
+
+Puntos importantes al probar una API:
+
+1-Poseer la documentacion necesaria (Endpoint).
+2-Se debe tener el conocimiento de los metodos soportados de la API.
+3-Saber el recorrido que posee la Api para identificar las pruebas mas adecuadas.
+4-identificar los Codigos de respuesta.
+5-Herramienta a utilizar para el testing.
+6-Tipos de prueba a utilizar.
+7- Evolución y actualización de pruebas.
