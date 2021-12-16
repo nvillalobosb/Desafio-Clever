@@ -1,0 +1,251 @@
+{
+	"id": "66b4945e-6de2-45d7-bb66-d1018b7a27fe",
+	"name": "Desafio",
+	"timestamp": "2021-12-16T14:11:57.150Z",
+	"collection_id": "17173578-79b221dd-9069-4bc6-be57-09c71b615bd5",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 36,
+	"totalFail": 6,
+	"results": [
+		{
+			"id": "6c234b4b-2960-43dc-a3bc-4b40e7ffeb28",
+			"name": "obtener posts",
+			"time": 33,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 6,
+					"fail": 0
+				}
+			},
+			"times": [
+				112,
+				37,
+				26,
+				27,
+				35,
+				33
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e06289a5-ace8-436d-a87e-8340363d5f2e",
+			"name": "obtener Post ID",
+			"time": 31,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Obtener ID 1": true,
+				"Error al buscar id 2": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Obtener ID 1": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Error al buscar id 2": {
+					"pass": 0,
+					"fail": 6
+				}
+			},
+			"times": [
+				38,
+				41,
+				33,
+				34,
+				28,
+				31
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Obtener ID 1": true,
+					"Error al buscar id 2": false
+				},
+				{
+					"Status code is 200": true,
+					"Obtener ID 1": true,
+					"Error al buscar id 2": false
+				},
+				{
+					"Status code is 200": true,
+					"Obtener ID 1": true,
+					"Error al buscar id 2": false
+				},
+				{
+					"Status code is 200": true,
+					"Obtener ID 1": true,
+					"Error al buscar id 2": false
+				},
+				{
+					"Status code is 200": true,
+					"Obtener ID 1": true,
+					"Error al buscar id 2": false
+				},
+				{
+					"Status code is 200": true,
+					"Obtener ID 1": true,
+					"Error al buscar id 2": false
+				}
+			]
+		},
+		{
+			"id": "67205d86-fb04-49da-ab66-fdd82eabfab1",
+			"name": "obtener users 200 ok y 200ms",
+			"time": 41,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 6,
+					"fail": 0
+				}
+			},
+			"times": [
+				32,
+				32,
+				29,
+				28,
+				28,
+				41
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "6f27d1f5-036b-449e-a397-543945be6522",
+			"name": "Insertar Post 201 Ok",
+			"time": 285,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 6,
+					"fail": 0
+				}
+			},
+			"times": [
+				409,
+				275,
+				284,
+				279,
+				287,
+				285
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		}
+	],
+	"count": 6,
+	"totalTime": 2484,
+	"collection": {
+		"requests": [
+			{
+				"id": "6c234b4b-2960-43dc-a3bc-4b40e7ffeb28",
+				"method": "GET"
+			},
+			{
+				"id": "e06289a5-ace8-436d-a87e-8340363d5f2e",
+				"method": "GET"
+			},
+			{
+				"id": "67205d86-fb04-49da-ab66-fdd82eabfab1",
+				"method": "GET"
+			},
+			{
+				"id": "6f27d1f5-036b-449e-a397-543945be6522",
+				"method": "POST"
+			}
+		]
+	}
+}
